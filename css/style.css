@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+html{
+    font-size: 62,5%;
+}
+body{
+    background-color: #ECFEE8;
+    
+}
+div{
+    display:list-item;
+    
+    
+
+}
+li{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    font-size: 20px;
+    
+    
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    margin: 0 auto;
+    gap: 15px;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    margin-top: 50px;
+    color:#331E36
+    
+
+}
+#myList{
+    width: 100%;
+    flex-direction:column;
+    gap: 10px;
+
+}
+.todo_item{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    padding: 5px;
+
+}
+.todo__item > div {
+    width: 80%;
+}
+.todo__item > input[type='button'],
+.todo__item > input[type='checkbox'] {
+    width: 30px;
+    height: 30px;
+    font: inherit;
+}
+
+#task{
+    background-color:#C2EFEB;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    padding: 10px 0;
+    margin: 10px;
+    font: inherit;
+
+}
+.task > input{
+    background-color:#C2EFEB;
+    border: none;
+    width: 80%;
+    outline: none;
+    font: inherit;
+}
+
+.task> input::placeholder {
+    font-style: italic;
+    font-weight: normal;
+}
+.button{
+    margin-left: 50%;
+    border-radius: 5px;
+    color:#41337A;
+}
+input[type="checkbox" i]{
+
+    width: 18px;
+    height: 18px;
+    order:1;
+    gap:3px;
+    
+   
+    
+    
+    
+    
+
+    
+    
+}
+
+.buttonRemove{
+    margin-left: 5px;
+    border-radius: 0.2em #000;
+    
+}
+
